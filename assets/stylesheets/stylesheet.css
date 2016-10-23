@@ -587,8 +587,9 @@ header.navigation {
     content: "";
     display: block; }
 
-.omega {
-  margin-right: 0; }
+@media screen and (min-width: 600px) {
+  .omega {
+    margin-right: 0; } }
 
 .grid-6 {
   float: left;
@@ -627,13 +628,22 @@ header.navigation {
         margin-right: 0; } }
 
 .shift-6 {
-  margin-left: 51.1788260117%; }
+  margin-left: 0%; }
+  @media screen and (min-width: 600px) {
+    .shift-6 {
+      margin-left: 51.1788260117%; } }
 
 .shift-3 {
-  margin-left: 25.5894130058%; }
+  margin-left: 0%; }
+  @media screen and (min-width: 600px) {
+    .shift-3 {
+      margin-left: 25.5894130058%; } }
 
 .shift-2 {
-  margin-left: 17.0596086706%; }
+  margin-left: 0%; }
+  @media screen and (min-width: 600px) {
+    .shift-2 {
+      margin-left: 17.0596086706%; } }
 
 .img--container__center {
   vertical-align: center; }
