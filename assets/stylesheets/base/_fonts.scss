@@ -1,0 +1,86 @@
+@font-face{
+	font-family: 'franz-200-extra-light';
+	src: url('fonts/franz/franz-200-extra-light.woff2') format('woff2');
+	src: url('fonts/franz/franz-200-extra-light.woff') format('woff')
+}
+
+@font-face{
+	font-family: 'franz-300-light';
+	src: url('fonts/franz/franz-300-light.woff2') format('woff2');
+	src: url('fonts/franz/franz-300-light.woff') format('woff')
+}
+
+@font-face{
+	font-family: 'franz-400-semi-light';
+	src: url('fonts/franz/franz-400-semi-light.woff2') format('woff2');
+	src: url('fonts/franz/franz-400-semi-light.woff') format('woff')
+}
+
+@font-face{
+	font-family: 'franz-500-medium';
+	src: url('fonts/franz/franz-500-medium.woff2') format('woff2');
+	src: url('fonts/franz/franz-500-medium.woff') format('woff')
+}
+
+@font-face{
+	font-family: 'franz-600-semi-bold';
+	src: url('fonts/franz/franz-600-semi-bold.woff2') format('woff2');
+	src: url('fonts/franz/franz-600-semi-bold.woff') format('woff')
+}
+
+@font-face{
+	font-family: 'franz-700-bold';
+	src: url('fonts/franz/franz-700-bold.woff2') format('woff2');
+	src: url('fonts/franz/franz-700-bold.woff') format('woff')
+}
+
+@font-face{
+	font-family: 'franz-800-extra-bold';
+	src: url('fonts/franz/franz-800-extra-bold.woff2') format('woff2');
+	src: url('fonts/franz/franz-800-extra-bold.woff') format('woff')
+}
+
+@font-face{
+	font-family: 'franz-900-heavy';
+	src: url('fonts/franz/franz-900-heavy.woff2') format('woff2');
+	src: url('fonts/franz/franz-900-heavy.woff') format('woff')
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon-social-font/icomoon.eot?7hensw');
+  src:  url('fonts/icomoon-social-font/icomoon.eot?7hensw#iefix') format('embedded-opentype'),
+    url('fonts/icomoon-social-font/icomoon.ttf?7hensw') format('truetype'),
+    url('fonts/icomoon-social-font/icomoon.woff?7hensw') format('woff'),
+    url('fonts/icomoon-social-font/icomoon.svg?7hensw#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  // -webkit-font-smoothing: antialiased;
+  // -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-yelp:before {
+  content: "\ead7";
+}

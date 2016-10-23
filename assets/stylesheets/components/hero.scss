@@ -1,0 +1,22 @@
+.hero {
+  @include outer-container(100%);
+  // align-items: center;
+  background: $overlay-white, url("../images/hero-home.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 40em;
+  padding: 2em;
+
+  .hero-content {
+    @include outer-container;
+    text-align: left;
+  }
+}
+
+.hero-content__placement {
+  max-width: 45em;
+}
