@@ -1,9 +1,8 @@
 header.navigation {
-  $base-border-color: gainsboro !default;
-  $base-border-radius: 3px !default;
   $action-color: #477DCA !default;
   $dark-gray: #333 !default;
-  $large-screen: 53.75em !default;
+  // $large-screen: 53.75em !default;
+  $large-screen: 78em !default;
   $navigation-padding: 1em;
   $navigation-background: rgba(255,255,255,0.95);
   $navigation-color: transparentize($dark-gray, 0.3);
@@ -20,7 +19,6 @@ header.navigation {
   $horizontal-bar-mode: $large-screen;
 
   background-color: $navigation-background;
-  // border-bottom: 1px solid darken($navigation-background, 10);
   min-height: $navigation-height;
   position: fixed;
   width: 100%;
@@ -41,9 +39,7 @@ header.navigation {
     align-items: center;
 
     img {
-      // max-height: $navigation-height;
       height: 42px;
-      // margin: 0.8em 0 0 0;
       width: 42px;
     }
 
@@ -293,11 +289,12 @@ header.navigation {
     // background: #505050;
     // clear: both;
     // display: block;
-    height: $navigation-height;
+    height: 0;
     display: flex;
     margin-left: 2em;
 
     @include media($horizontal-bar-mode) {
+      height: $navigation-height;
       background: transparent;
       clear: none;
       float: right;
@@ -305,7 +302,12 @@ header.navigation {
   }
 
   button {
-    margin: 20px 1em 20px 0;
+    display: none;
+
+    @include media($horizontal-bar-mode) {
+      display: inline;
+      margin: 20px 1em 20px 0;
+    }
   }
 
 }

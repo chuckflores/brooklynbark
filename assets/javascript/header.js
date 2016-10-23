@@ -5,12 +5,12 @@ $(window).resize(function() {
     var moreLeftSideToPageLeftSide = $(more).offset().left;
     var moreLeftSideToPageRightSide = windowWidth - moreLeftSideToPageLeftSide;
 
-    if (moreLeftSideToPageRightSide < 330) {
+    if (moreLeftSideToPageRightSide < 1030) {
       $("#js-navigation-more .submenu .submenu").removeClass("fly-out-right");
       $("#js-navigation-more .submenu .submenu").addClass("fly-out-left");
     }
 
-    if (moreLeftSideToPageRightSide > 330) {
+    if (moreLeftSideToPageRightSide > 1030) {
       $("#js-navigation-more .submenu .submenu").removeClass("fly-out-left");
       $("#js-navigation-more .submenu .submenu").addClass("fly-out-right");
     }

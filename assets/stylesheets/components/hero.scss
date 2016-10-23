@@ -1,6 +1,5 @@
 .hero {
   @include outer-container(100%);
-  // align-items: center;
   background: $overlay-white, url("../images/hero-home.png");
   background-position: center center;
   background-repeat: no-repeat;
@@ -14,6 +13,7 @@
   .hero-content {
     @include outer-container;
     text-align: left;
+    padding-top: 4em;
   }
 }
 

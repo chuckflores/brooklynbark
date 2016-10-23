@@ -459,16 +459,21 @@ header.navigation {
             text-align: left;
             width: 12em; } }
   header.navigation .navigation-right {
-    height: 80px;
+    height: 0;
     display: flex;
     margin-left: 2em; }
     @media screen and (min-width: 900px) {
       header.navigation .navigation-right {
+        height: 80px;
         background: transparent;
         clear: none;
         float: right; } }
   header.navigation button {
-    margin: 20px 1em 20px 0; }
+    display: none; }
+    @media screen and (min-width: 900px) {
+      header.navigation button {
+        display: inline;
+        margin: 20px 1em 20px 0; } }
 
 .hero {
   max-width: 100%;
@@ -491,7 +496,8 @@ header.navigation {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    text-align: left; }
+    text-align: left;
+    padding-top: 4em; }
     .hero .hero-content::after {
       clear: both;
       content: "";

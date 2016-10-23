@@ -8,6 +8,7 @@
   <!-- <meta name="description" content="Insert Description Here"> -->
   <link rel="stylesheet" href="assets/stylesheets/stylesheet.css">
 
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
   <script type="text/javascript" src="assets/javascript/header.js"></script>
 
 </head>
@@ -35,22 +36,23 @@
         </ul>
       </nav>
       <div class="navigation-right">
-        <nav>
-          <ul id="js-navigation-menu" class="navigation-menu show">
+        <nav role="navigation">
+          <ul class="navigation-menu">
             <li class="nav-link"><a href="javascript:void(0)">Client Login</a></li>
             <li class="nav-link social"><a href="javascript:void(0)" class="icon-facebook"></a></li>
             <li class="nav-link social"><a href="javascript:void(0)">&#xea92;</a></li>
             <li class="nav-link social"><a href="javascript:void(0)">&#xea96;</a></li>
           </ul>
+          <button class="hide-button">
+            Get Started
+          </button>
         </nav>
-        <button>
-          Get Started
-        </button>
+
       </div>
     </div>
   </header>
 
-  <div class="hero">
+  <div id="home" class="hero">
     <div class="hero-content">
       <div class="hero-content__placement">
         <h1>Friendly and Reliable Dog Walking, Pet Sitting, and Care</h1>

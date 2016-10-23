@@ -2,17 +2,13 @@
   @include outer-container(100%);
 }
 
-
 .small-section-spacing {
   padding-top: 5em;
   padding-bottom: 5em;
 }
 
-
 .full-background-img {
   @include outer-container(100%);
-  // align-items: center;
-  // background: $overlay-white, url("../images/hero-home.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
