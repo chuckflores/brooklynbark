@@ -15,8 +15,8 @@ $font-900: 'franz-900-heavy';
 $font-social: 'icomoon' !important;
 
 // Typography
-$base-font-family: $font-400;
-$heading-font-family: $font-800;
+$base-font-family: 'franz';
+$heading-font-family: $base-font-family;
 
 // Font Sizes
 $base-font-size: 1em;
@@ -36,6 +36,7 @@ $blue: #1565c0;
 $dark-gray: #333;
 $medium-gray: #999;
 $light-gray: #ddd;
+$white: #ffffff;
 
 // Brand Colors
 $brand-orange: #F6933A;
@@ -73,8 +74,8 @@ $secondary-background-color: tint($base-border-color, 75%);
 
 
 // Forms
-$form-box-shadow: inset 0 1px 3px rgba(#000, 0.06);
-$form-box-shadow-focus: $form-box-shadow, 0 0 5px adjust-color($action-color, $lightness: -5%, $alpha: -0.3);
+$form-box-shadow: inset 0 0px 0px rgba(#000, 0.06);
+$form-box-shadow-focus: $form-box-shadow, 0 0 0px adjust-color($action-color, $lightness: -5%, $alpha: -0.3);
 
 // Animations
 $base-duration: 150ms;

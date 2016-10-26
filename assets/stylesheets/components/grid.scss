@@ -5,13 +5,12 @@ $large-breakpoint: 600px;
   @include outer-container(100%);
 }
 
-.grid-container {
+.grid-container, .container {
   @include outer-container;
 }
 
 .omega {
-
-
+  @include omega;
   @include media(600px) {
     @include omega;
   };
@@ -59,4 +58,28 @@ $large-breakpoint: 600px;
   @include media($large-breakpoint) {
     @include shift(2);
   };
+}
+
+.shift-1 {
+  @include shift(0);
+
+  @include media($large-breakpoint) {
+    @include shift(1);
+  };
+}
+
+.column-4 {
+    @include span-columns(4);
+}
+
+.col-5 {
+  @include span-columns(5);
+}
+
+section {
+  width: 100%;
+}
+
+.section-padding-vertical {
+  padding: 5em 0;
 }

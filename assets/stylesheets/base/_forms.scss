@@ -27,10 +27,10 @@ textarea {
 
 #{$all-text-inputs} {
   appearance: none;
-  background-color: $base-background-color;
-  border: $base-border;
-  border-radius: $base-border-radius;
-  box-shadow: $form-box-shadow;
+  background-color: #F5F3F0;
+  border: rgba(0,0,0,0.1);
+  // border-radius: $base-border-radius;
+  // box-shadow: $form-box-shadow;
   box-sizing: border-box;
   margin-bottom: $small-spacing;
   padding: $base-spacing / 3;
@@ -44,7 +44,7 @@ textarea {
   &:focus {
     border-color: $action-color;
     box-shadow: $form-box-shadow-focus;
-    outline: none;
+    outline: solid 1px $action-color;
   }
 
   &:disabled {
@@ -79,4 +79,10 @@ textarea {
 select {
   margin-bottom: $small-spacing;
   width: 100%;
+}
+
+.input-header {
+  // font-family: $font-600;
+  font-weight: 600;
+  font-size: 15px;
 }

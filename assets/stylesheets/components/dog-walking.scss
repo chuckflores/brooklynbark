@@ -1,0 +1,141 @@
+$price-20min: #9D8DD9;
+$price-30min: #2AC288;
+$price-45min: $action-color;
+$price-card-padding: 1.5em;
+
+.hero-dog-walking {
+  @include outer-container(100%);
+  background: $overlay-gradient-orange, url("../images/hero-dog-walking@2x.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 40em;
+  padding: 2em;
+
+  .hero-content {
+    @include outer-container;
+    text-align: left;
+    padding-top: 18em;
+  }
+
+  color: #ffffff;
+
+  h2 {
+    font-family: 'franz';
+    font-weight: 700;
+    font-size: 56px;
+    margin-bottom: 0;
+  }
+
+  h5 {
+    font-family: 'franz';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    padding-top: 0.5em;
+  }
+}
+
+.hero-content-text {
+  max-width: 36em;
+}
+#pricing-dog-walks {
+  text-align: center;
+
+  h3 {
+    padding-bottom: 2em;
+  }
+}
+
+
+
+.price-group-dog {
+
+}
+
+.price-card {
+  background: #FFFBF7;
+  box-shadow: 0px 2px 18px 0px rgba(203,111,27,0.15);
+  @include span-columns(4);
+  text-align: center;
+}
+
+.price-card-header {
+  background-color: $price-20min;
+  padding: 20px 0;
+  h4 {
+    color: $white;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    margin: 0;
+  }
+}
+
+.price-card-time {
+  margin-top: 2em;
+  h4 {
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+}
+
+.price-card-amount {
+  margin-top: 1em;
+  h4 {
+    font-family: -apple-system;
+    font-weight: 100;
+    font-size: 64px;
+    letter-spacing: -2.1px;
+  }
+}
+
+.price-card-description {
+  margin-bottom: 1em;
+  padding: 0 $price-card-padding;
+}
+
+.price-card-button {
+  padding-bottom: 2em;
+  button {
+  }
+}
+
+#min-20 {
+  .price-card-header, button {
+    background-color: $price-20min;
+  }
+
+  .price-card-amount, .price-card-time {
+    color: $price-20min;
+  }
+}
+
+#min-30 {
+  .price-card-header, button {
+    background-color: $price-30min;
+  }
+
+  .price-card-amount, .price-card-time {
+    color: $price-30min;
+  }
+}
+
+#min-45 {
+  .price-card-header, button {
+    background-color: $price-45min;
+  }
+
+  .price-card-amount, .price-card-time {
+    color: $price-45min;
+  }
+}
+
+.highlight-component {
+  
+}
