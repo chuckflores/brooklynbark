@@ -5,7 +5,7 @@ header.navigation {
   // $large-screen: 53.75em !default;
   $large-screen: 78em !default;
   $navigation-padding: 1em;
-  $navigation-background: rgba(255,255,255,0.95);
+  $navigation-background: rgba(255,255,255,0.8);
   $navigation-color: transparentize($dark-gray, 0.3);
   $navigation-color-hover: darken($navigation-color, 0.6);
   $navigation-height: 80px;
@@ -20,6 +20,8 @@ header.navigation {
   $horizontal-bar-mode: $large-screen;
 
   background-color: $navigation-background;
+  -webkit-backdrop-filter: saturate(120%) blur(4px);
+  backdrop-filter: saturate(120%) blur(4px);
   min-height: $navigation-height;
   position: fixed;
   width: 100%;
@@ -127,6 +129,9 @@ header.navigation {
     width: 100%;
     z-index: 9999;
 
+    font-size: 15px;
+
+
     @include media ($horizontal-bar-mode) {
       background: transparent;
       display: inline;
@@ -203,7 +208,7 @@ header.navigation {
 
       &::after {
         content: "›";
-        font-size: 1.2em;
+        font-size: 1.0em;
         position: absolute;
         right: $navigation-submenu-padding / 2;
       }

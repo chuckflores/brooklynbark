@@ -23,6 +23,8 @@
 
 .remodal-overlay {
   background: rgba(43, 46, 56, 0.9);
+  -webkit-backdrop-filter: saturate(75%) blur(4px);
+  backdrop-filter: saturate(75%) blur(4px);
 }
 
 .remodal-overlay.remodal-is-opening,
