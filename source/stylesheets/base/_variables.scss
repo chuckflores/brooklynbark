@@ -3,7 +3,8 @@ $medium-screen: 600px;
 $large-screen: 900px;
 
 // Typography
-$base-font-family: 'Roboto', $font-stack-system, sans-serif;
+// $base-font-family: 'Roboto', $font-stack-system, sans-serif;
+$base-font-family: 'franz';
 $heading-font-family: $base-font-family;
 $base-font-weight: 300;
 
@@ -15,7 +16,7 @@ $base-line-height: 1.5;
 $heading-line-height: 1.2;
 
 // Other Sizes
-$base-border-radius: 3px;
+$base-border-radius: 100px;
 $base-spacing: $base-line-height * 1em;
 $small-spacing: $base-spacing / 2.4;
 $base-z-index: 0;
@@ -26,12 +27,13 @@ $blue: #1565c0;
 $dark-gray: #333;
 $medium-gray: #999;
 $light-gray: #ddd;
+$white: #fff;
 
 // Brand Colors
-$brand-primary-color: #24E29E;
-$brand-secondary-color: #FC6C17;
+$brand-primary-color: #F6933A;
+$brand-secondary-color: #3AD3F6;
 
-
+// Shadows
 
 // Font Colors
 $base-font-color: $black;
@@ -60,4 +62,4 @@ $mobile: new-breakpoint(max-width 748px 4);
 $navbar-height: 72px;
 
 // Nav Bar Colors
-$navbar-color: #EAF4F0;
+$navbar-color: #ffffff;

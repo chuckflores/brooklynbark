@@ -1,3 +1,7 @@
+section {
+  margin: 0;
+}
+
 .section--first {
   margin-top: $navbar-height;
 }
@@ -16,4 +20,11 @@
 
 .section--padding__tiny {
   padding: 2em 0;
+}
+
+.section-full-img-background  {
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  // background-position: center top;
+  min-height: 40em;
 }

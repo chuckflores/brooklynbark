@@ -56,15 +56,15 @@ $navbar-primary-link-color: $brand-primary-color;
 
 .nav-items li {
   color: darken($navbar-primary-link-color, 10%);
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 700;
-  letter-spacing: 1.2px;
+  letter-spacing: 0.2px;
   line-height: 1.2;
   list-style: none;
   padding-left: $gutter;
   padding-right: $gutter;
-  text-align: right;
-  text-transform: uppercase;
+  text-align: left;
+  text-transform: capitalize;
   transition: all $base-timing $nav-duration;
 
   // Active Nav Item Border Bottom

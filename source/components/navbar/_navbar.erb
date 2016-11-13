@@ -1,0 +1,40 @@
+<div class="nav-bar">
+  <% link_to '/index.html' do %>
+    <div class="nav-logo">
+      <%= image_tag "images/brand/logo.svg" %>
+    </div>
+  <% end %>
+  <div id="menu">
+    <div class="one"></div>
+    <div class="two"></div>
+    <div class="three"></div>
+  </div>
+  <div class="nav-items">
+    <ul>
+      <li class="nav_active nav-dropdown">Services and Rates ▾
+        <ul class="nav-second-level">
+          <a href="#"><li>Dog Walking</li></a>
+          <a href="#"><li>Pet Sitting</li></a>
+          <a href="#"><li>Sleepovers</li></a>
+        </ul>
+      </li>
+
+      <li class="nav_active nav-dropdown">About ▾
+        <ul class="nav-second-level">
+          <a href="#"><li>Our Story</li></a>
+          <a href="#"><li>Meet the Team</li></a>
+        </ul>
+      </li>
+      <a href="#">
+        <li class="nav_active">Blog</li>
+      </a>
+      <a href="#">
+        <li class="nav_active">Events</li>
+      </a>
+    </ul>
+    <div class="nav-button">
+      <button type="button" name="button">Get Started</button>
+    </div>
+  </div>
+
+</div>

@@ -1,0 +1,24 @@
+$home-hero-height: 36em;
+
+.hero {
+  min-height: 48em;
+  @include outer-container(100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+
+  // If not using a transparent navbar
+  // margin-top: $navbar-height;
+}
+
+.hero-text {
+  margin-top: 13em;
+}
+
+.home-hero {
+  background: url('../images/home/home-hero.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  min-height: $home-hero-height;
+}

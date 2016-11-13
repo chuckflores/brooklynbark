@@ -9,9 +9,11 @@
     left: 0;
     margin-top: $navbar-height;
     position: absolute;
+    text-align: left;
     top: 0;
-    z-index: 10000;
     transition: all $base-timing $nav-duration;
+    white-space: nowrap;
+    z-index: 10000;
   }
 
   &:hover .nav-second-level {
@@ -22,10 +24,10 @@
 @include media($mobile) {
   .nav-dropdown .nav-second-level {
     background-color: $navbar-color;
-    right: 0;
     left: auto;
     margin-top: 1em;
-
+    right: 0;
+    
     &:hover, &:focus {
       display: flex;
       flex-direction: column;

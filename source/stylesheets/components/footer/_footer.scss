@@ -1,0 +1,17 @@
+footer {
+  @include outer-container(100%);
+  padding: 3em $gutter;
+}
+
+.footer-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-info-txt {
+  color: #938477;
+  font-size: 13px;
+  line-height: 1.4;
+  letter-spacing: 0.3px;
+  margin-top: $small-spacing * 2;
+}
