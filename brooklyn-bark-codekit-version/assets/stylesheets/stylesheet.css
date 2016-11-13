@@ -241,11 +241,6 @@ hr {
   border-top: 0;
   margin: 1.5em 0; }
 
-.social {
-  font-family: "icomoon" !important;
-  font-size: 16px;
-  color: #333; }
-
 .orange {
   color: #F6933A; }
 
@@ -463,12 +458,14 @@ header.navigation {
       header.navigation button {
         display: inline;
         margin: 20px 1em 20px 0; } }
+  header.navigation .social {
+    top: 10px; }
 
 .hero {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
-  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("../images/hero-home.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/hero-home.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -493,7 +490,13 @@ header.navigation {
       display: block; }
 
 .hero-content__placement {
-  max-width: 45em; }
+  max-width: 60em; }
+
+#home h1 {
+  color: #ffffff;
+  font-size: 56px;
+  font-weight: 800;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); }
 
 .section {
   max-width: 100%;
