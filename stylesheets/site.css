@@ -1315,3 +1315,16 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center; }
+
+/* line 13, pages-layout/_layout-home.scss */
+.home-gps {
+  background-image: url("../images/home/home-gps-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center; }
+
+/* line 20, pages-layout/_layout-home.scss */
+.home-award-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
