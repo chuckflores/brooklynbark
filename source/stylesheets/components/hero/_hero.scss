@@ -1,4 +1,5 @@
 $home-hero-height: 36em;
+$hero-height: 44em;
 
 .hero {
   min-height: 48em;
@@ -21,4 +22,12 @@ $home-hero-height: 36em;
   background-size: cover;
   background-position: center top;
   min-height: $home-hero-height;
+}
+
+.hero-dogwalking {
+  background: url('../images/services/dogwalking/dogwalking-hero.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  min-height: $hero-height;
 }

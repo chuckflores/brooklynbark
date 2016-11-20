@@ -1,6 +1,25 @@
 .txt-container {
-
   @include media($mobile) {
     padding: 0 $gutter;
   }
+}
+
+.txt-box-padding-tiny {
+  padding: 1em 0;
+}
+
+.txt-box-padding-small {
+  padding: 2em 0;
+}
+
+.txt-box-padding-medium {
+  padding: 4em 0;
+}
+
+.txt-box-padding-large {
+  padding: 6em 0;
+}
+
+.txt-box-padding-super-large {
+  padding: 8em 0;
 }
