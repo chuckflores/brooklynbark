@@ -1282,7 +1282,27 @@ section {
   .txt-container {
     padding: 0 2em; } }
 
-/* line 3, components/hero/_hero.scss */
+/* line 7, components/_text-boxes.scss */
+.txt-box-padding-tiny {
+  padding: 1em 0; }
+
+/* line 11, components/_text-boxes.scss */
+.txt-box-padding-small {
+  padding: 2em 0; }
+
+/* line 15, components/_text-boxes.scss */
+.txt-box-padding-medium {
+  padding: 4em 0; }
+
+/* line 19, components/_text-boxes.scss */
+.txt-box-padding-large {
+  padding: 6em 0; }
+
+/* line 23, components/_text-boxes.scss */
+.txt-box-padding-super-large {
+  padding: 8em 0; }
+
+/* line 4, components/hero/_hero.scss */
 .hero {
   min-height: 48em;
   max-width: 100%;
@@ -1297,17 +1317,25 @@ section {
     content: "";
     display: block; }
 
-/* line 14, components/hero/_hero.scss */
+/* line 15, components/hero/_hero.scss */
 .hero-text {
   margin-top: 13em; }
 
-/* line 18, components/hero/_hero.scss */
+/* line 19, components/hero/_hero.scss */
 .home-hero {
   background: url("../images/home/home-hero.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
   min-height: 36em; }
+
+/* line 27, components/hero/_hero.scss */
+.hero-dogwalking {
+  background: url("../images/services/dogwalking/dogwalking-hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  min-height: 44em; }
 
 /* line 6, pages-layout/_layout-home.scss */
 .home-individual-care {
