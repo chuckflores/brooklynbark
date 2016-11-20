@@ -21,4 +21,13 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+
+  img {
+    max-width: 172px;
+    height: auto;
+  }
+}
+
+.home-award-trophy {
+  margin-bottom: 2em;
 }
