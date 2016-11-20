@@ -1328,3 +1328,11 @@ section {
   display: flex;
   flex-direction: row;
   justify-content: space-between; }
+  /* line 25, pages-layout/_layout-home.scss */
+  .home-award-container img {
+    max-width: 172px;
+    height: auto; }
+
+/* line 31, pages-layout/_layout-home.scss */
+.home-award-trophy {
+  margin-bottom: 2em; }
