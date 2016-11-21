@@ -1,5 +1,5 @@
 $home-hero-height: 36em;
-$hero-height: 44em;
+$hero-height: 42em;
 
 .hero {
   min-height: 48em;
@@ -12,7 +12,7 @@ $hero-height: 44em;
   // margin-top: $navbar-height;
 }
 
-.hero-text {
+.home-hero-text {
   margin-top: 13em;
 }
 
@@ -22,6 +22,18 @@ $hero-height: 44em;
   background-size: cover;
   background-position: center top;
   min-height: $home-hero-height;
+}
+
+.hero-text {
+  margin-top: 24em;
+
+  h1 {
+    margin-bottom: 0;
+  }
+
+  h3 {
+    padding-top: 0.5em;
+  }
 }
 
 .hero-dogwalking {

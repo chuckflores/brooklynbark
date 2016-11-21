@@ -1,0 +1,53 @@
+$price-dog-1-color: #9D8DD9;
+
+.pricing-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.pricing-component {
+  background-color: $white;
+  @include span-columns(4);
+  text-align: center;
+}
+
+.pricing-header {
+  padding: 1em $gutter;
+  h3 {
+    color: $white;
+  }
+}
+
+#price-dog-1 {
+  .pricing-header {
+    background-color: $price-dog-1-color;
+  }
+
+  h4, h2 {
+    color: $price-dog-1-color;
+  }
+
+}
+
+.price-group {
+  padding: 0 $gutter 1em $gutter;
+
+
+}
+
+.price-time {
+
+}
+
+.price {
+  h2 {
+
+  }
+}
+
+.price-description {
+  p {
+    font-size: 16px;
+  }
+}
