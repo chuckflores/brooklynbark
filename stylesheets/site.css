@@ -658,24 +658,30 @@ h2 {
   margin: 0; }
 
 /* line 31, base/_typography.scss */
+h3 {
+  font-size: 24px;
+  line-height: 29px;
+  margin: 0; }
+
+/* line 37, base/_typography.scss */
 p {
   font-size: 20px;
   line-height: 1.5;
   margin-top: 1em; }
 
-/* line 37, base/_typography.scss */
+/* line 43, base/_typography.scss */
 a {
   color: #F6933A;
   text-decoration: none;
   transition: color 150ms ease; }
-  /* line 42, base/_typography.scss */
+  /* line 48, base/_typography.scss */
   a a:visited {
     color: #F6933A; }
-  /* line 46, base/_typography.scss */
+  /* line 52, base/_typography.scss */
   a:active, a:focus, a:hover {
     color: #b96e2c; }
 
-/* line 53, base/_typography.scss */
+/* line 59, base/_typography.scss */
 hr {
   border-bottom: 1px solid #ddd;
   border-left: 0;
@@ -1318,7 +1324,7 @@ section {
     display: block; }
 
 /* line 15, components/hero/_hero.scss */
-.hero-text {
+.home-hero-text {
   margin-top: 13em; }
 
 /* line 19, components/hero/_hero.scss */
@@ -1330,12 +1336,62 @@ section {
   min-height: 36em; }
 
 /* line 27, components/hero/_hero.scss */
+.hero-text {
+  margin-top: 24em; }
+  /* line 30, components/hero/_hero.scss */
+  .hero-text h1 {
+    margin-bottom: 0; }
+  /* line 34, components/hero/_hero.scss */
+  .hero-text h3 {
+    padding-top: 0.5em; }
+
+/* line 39, components/hero/_hero.scss */
 .hero-dogwalking {
   background: url("../images/services/dogwalking/dogwalking-hero.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
-  min-height: 44em; }
+  min-height: 42em; }
+
+/* line 3, components/pricing/_pricing-component.scss */
+.pricing-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+/* line 9, components/pricing/_pricing-component.scss */
+.pricing-component {
+  background-color: #fff;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%;
+  text-align: center; }
+  /* line 89, library/neat/grid/_span-columns.scss */
+  .pricing-component:last-child {
+    margin-right: 0; }
+
+/* line 15, components/pricing/_pricing-component.scss */
+.pricing-header {
+  padding: 1em 2em; }
+  /* line 17, components/pricing/_pricing-component.scss */
+  .pricing-header h3 {
+    color: #fff; }
+
+/* line 23, components/pricing/_pricing-component.scss */
+#price-dog-1 .pricing-header {
+  background-color: #9D8DD9; }
+/* line 27, components/pricing/_pricing-component.scss */
+#price-dog-1 h4, #price-dog-1 h2 {
+  color: #9D8DD9; }
+
+/* line 33, components/pricing/_pricing-component.scss */
+.price-group {
+  padding: 0 2em 1em 2em; }
+
+/* line 50, components/pricing/_pricing-component.scss */
+.price-description p {
+  font-size: 16px; }
 
 /* line 6, pages-layout/_layout-home.scss */
 .home-individual-care {
